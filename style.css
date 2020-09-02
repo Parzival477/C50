@@ -1,0 +1,47 @@
+h1{
+    color:orange;
+    padding-left: 30px;
+    margin-left: 30px
+
+}
+.Introduction{
+    background-color:#ffcf00; 
+    display:flex;
+    justify-content:space-between
+}
+.Projects{
+    background-color:orangered
+}
+.Games{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:space-evenly;
+    background-color:coral
+}
+.Social{
+    display:flex;
+    justify-content:flex-end;
+}
+p,h2{
+    color:rgb(18, 19, 18);
+    text-align:center
+}
+a:link{
+    color: #ffffff
+}
+a:visited{
+    color:#000000
+}
+.Games{
+position: relative
+}
+.Games p{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    opacity: 0
+}
+.Games:hover a{
+    opacity: 0.3333
+}
